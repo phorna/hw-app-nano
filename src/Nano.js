@@ -26,13 +26,14 @@ import { BaseAPI, getAddress, signBlock, cacheBlock } from "./api";
  * @example
  * import Nano from "hw-app-nano";
  * const nano = new Nano(transport);
+ * temporary renaming addressSecondaryPrefix: "xrb_" to "xro_".
  */
 export default class Nano extends BaseAPI {
   constructor(transport: Transport<*>) {
     super(transport, {
       coinName: "Nano",
       addressPrimaryPrefix: "nano_",
-      addressSecondaryPrefix: "xrb_"
+      addressSecondaryPrefix: "xro_"
     });
   }
 
