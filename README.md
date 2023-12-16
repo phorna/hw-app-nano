@@ -1,4 +1,4 @@
-# hw-app-nano
+# hw-app-nano-xro
 
 **[[API reference]](https://www.roosmaa.net/hw-app-nano/)**
 
@@ -8,4 +8,4 @@ In the browser, the U2F protocol is used to communicate with the dongle. For now
 
 To see how to use this library on your webpage refer to the [hw-app-nano-sample](https://github.com/roosmaa/hw-app-nano-sample/) project.
 
-hw-app-nano-xro introduces the possibility to use Ledger app to access XRO wallets.
+hw-app-nano-xro introduces the possibility to use Ledger app to access RaiblocksOne wallets.
