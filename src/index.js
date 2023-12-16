@@ -23,3 +23,4 @@ export { default } from "./Nano";
 export { default as Banano } from "./Banano";
 export { default as NOS } from "./NOS";
 export { default as NOLLAR } from "./NOLLAR";
+export { default as RaiblocksOne } from "./RaiblocksOne";
