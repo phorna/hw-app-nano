@@ -34,7 +34,7 @@
     "prepare": "npm run clean && npm run build",
     "flow": "flow",
     "clean": "rm -rf lib/",
-    "documentation": "documentation build src/index.js --project-name 'hw-app-nano' --project-version `node -e \"console.log(require('./package.json').version)\"` --project-homepage https://github.com/roosmaa/hw-app-nano -g -f html -o docs/",
+    "documentation": "documentation build src/index.js --project-name 'hw-app-nano-xro' --project-version `node -e \"console.log(require('./package.json').version)\"` --project-homepage https://github.com/phorna/hw-app-nano-xro -g -f html -o docs/",
     "prettier": "prettier --write 'src/**/*.js'",
     "prettier-diff": "prettier --list-different 'src/**/*.js'",
     "lint": "eslint src",
