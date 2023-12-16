@@ -1,5 +1,5 @@
 {
-  "name": "hw-app-nano",
+  "name": "hw-app-nano-xro",
   "version": "1.3.0",
   "author": "Mart Roosmaa <mart@roosmaa.net>",
   "license": "Apache-2.0",
@@ -10,6 +10,8 @@
     "Nano",
     "NanoCurrency",
     "$NANO",
+    "XRO",
+    "Raiblocksone",
     "Banano",
     "NOS",
     "NanoS",
@@ -18,12 +20,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roosmaa/hw-app-nano.git"
+    "url": "git+https://github.com/phorna/hw-app-nano-xro.git"
   },
   "bugs": {
-    "url": "https://github.com/roosmaa/hw-app-nano/issues"
+    "url": "https://github.com/phona/hw-app-nano-xro/issues"
   },
-  "homepage": "https://github.com/roosmaa/hw-app-nano#readme",
+  "homepage": "https://github.com/phorna/hw-app-nano-xro#readme",
   "publishConfig": {
     "access": "public"
   },
