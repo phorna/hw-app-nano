@@ -9,6 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: npm npm uninstall -g hw-app-nano-xro
+      - run: npm uninstall -g hw-app-nano-xro
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
