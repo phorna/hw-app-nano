@@ -33,7 +33,7 @@ export default class Nano extends BaseAPI {
     super(transport, {
       coinName: "Nano",
       addressPrimaryPrefix: "nano_",
-      addressSecondaryPrefix: "xro_"
+      addressSecondaryPrefix: "xrb_"
     });
   }
 
